@@ -19,7 +19,7 @@ class _EditNamePageState extends State<EditNamePage> {
 
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Edit la orden'),
+        title: const Text('Edita el avion'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
@@ -28,7 +28,7 @@ class _EditNamePageState extends State<EditNamePage> {
             TextField(
               controller: nameController,
               decoration: const InputDecoration(
-                hintText: 'Actualize la orden',
+                hintText: 'Actualice el avion',
               ),
             ),
             Text(

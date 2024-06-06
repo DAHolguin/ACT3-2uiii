@@ -51,7 +51,7 @@ class _PersonListState extends State<PersonList> {
                                           true,
                                         );
                                       },
-                                      child: const Text("Si, estoy seguro"))
+                                      child: const Text("Yes SIR"))
                                 ],
                               );
                             });

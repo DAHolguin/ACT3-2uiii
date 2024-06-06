@@ -21,7 +21,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text("ORDEN RESTAURANTE"),
+        title: const Text("Aerolineas Garcia"),
       ),
       body: _pages[_selectedIndex],
     );

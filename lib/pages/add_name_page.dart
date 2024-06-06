@@ -14,7 +14,7 @@ class _AddNamePageState extends State<AddNamePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('nombre de la orden'),
+        title: const Text('Nombra un Avion'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(15.0),
@@ -23,7 +23,7 @@ class _AddNamePageState extends State<AddNamePage> {
             TextField(
               controller: nameController,
               decoration: const InputDecoration(
-                hintText: 'Ingrese la orden',
+                hintText: 'Ingrese el avion',
               ),
             ),
             ElevatedButton(
